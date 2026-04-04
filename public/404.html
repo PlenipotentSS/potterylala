@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Pottery Lala</title>
+    <script>
+      // SPA redirect for GitHub Pages — custom domain (pathSegmentsToKeep = 0)
+      // Encodes the full path into a query string so index.html can restore it.
+      (function () {
+        var l = window.location;
+        l.replace(
+          l.protocol + '//' + l.host + '/?/' +
+          l.pathname.slice(1)
+            .split('/').join('/')
+            .replace(/&/g, '~and~') +
+          (l.search ? '&' + l.search.slice(1).replace(/&/g, '~and~') : '') +
+          l.hash
+        );
+      })();
+    </script>
+  </head>
+  <body></body>
+</html>
