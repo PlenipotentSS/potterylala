@@ -9,6 +9,9 @@ import MyStory from './pages/MyStory'
 export default function App() {
   return (
     <div className="app-root">
+      <div className="under-construction">
+        Under Construction — check back soon.
+      </div>
       <Header />
       <main>
         <Routes>
