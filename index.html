@@ -12,6 +12,21 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&family=Jost:wght@300;400;500&display=swap" rel="stylesheet" />
+    <script>
+      // Restore path encoded by 404.html redirect (SPA routing on GitHub Pages)
+      (function () {
+        var qs = window.location.search;
+        if (qs[1] === '/') {
+          var parts = qs.slice(1).split('&').map(function (s) {
+            return s.replace(/~and~/g, '&');
+          });
+          window.history.replaceState(
+            null, null,
+            parts[0] + (parts[1] ? '&' + parts[1] : '') + window.location.hash
+          );
+        }
+      })();
+    </script>
     <script type="module" crossorigin src="/assets/index-CTHEL4H_.js"></script>
     <link rel="stylesheet" crossorigin href="/assets/index-BtuoHPje.css">
   </head>
