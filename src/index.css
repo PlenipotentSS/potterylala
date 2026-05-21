@@ -8,7 +8,7 @@
 :root {
   --noir:    #111A19;
   --emerald: #284139;
-  --wasabi:  #707062;
+  --wasabi:  #4a4a3e;
   --earth:   #BB6830;
   --white:   #ffffff;
 
@@ -26,7 +26,7 @@ body {
   color: var(--noir);
   font-family: 'Jost', sans-serif;
   font-weight: 300;
-  font-size: 1rem;
+  font-size: 1.075rem;
   line-height: 1.65;
   -webkit-font-smoothing: antialiased;
 }
@@ -43,7 +43,7 @@ h1, h2, h3, h4 {
 /* ── Under construction banner ───────────────────────────── */
 .under-construction {
   background: var(--earth);
-  color: rgba(17,26,25,0.85);
+  color: #fff;
   text-align: center;
   font-family: 'Jost', sans-serif;
   font-size: 0.74rem;
@@ -181,7 +181,7 @@ h1, h2, h3, h4 {
 }
 .about-eyebrow {
   display: block;
-  font-size: 0.7rem;
+  font-size: 0.85rem;
   letter-spacing: 0.22em;
   text-transform: uppercase;
   color: var(--earth);
@@ -196,7 +196,7 @@ h1, h2, h3, h4 {
   margin-bottom: 24px;
 }
 .about-text p {
-  color: rgba(17,26,25,0.6);
+  color: var(--noir);
   font-size: 1rem;
   margin-bottom: 14px;
 }
@@ -286,7 +286,7 @@ h1, h2, h3, h4 {
 }
 .section-label {
   display: block;
-  font-size: 0.7rem;
+  font-size: 0.85rem;
   letter-spacing: 0.22em;
   text-transform: uppercase;
   color: rgba(255,255,255,0.5);
@@ -315,14 +315,14 @@ h1, h2, h3, h4 {
   font-style: italic;
   margin-bottom: 16px;
 }
-.available-section > .container > p {
-  color: rgba(255,255,255,0.72);
+.available-section p {
+  color: rgba(255,255,255,0.88);
   font-size: 1rem;
   max-width: 540px;
   margin-bottom: 10px;
 }
 .available-section .muted {
-  color: rgba(255,255,255,0.55);
+  color: rgba(255,255,255,0.72);
   font-size: 1rem;
   font-style: italic;
 }
@@ -346,7 +346,7 @@ h1, h2, h3, h4 {
 }
 .available-card p {
   font-size: 0.88rem;
-  color: rgba(255,255,255,0.55);
+  color: rgba(255,255,255,0.78);
   line-height: 1.6;
   margin: 0;
 }
@@ -371,7 +371,7 @@ h1, h2, h3, h4 {
   font-size: 0.74rem;
   letter-spacing: 0.2em;
   text-transform: uppercase;
-  color: rgba(17,26,25,0.32);
+  color: var(--noir);
   text-decoration: none;
   margin-bottom: 36px;
   transition: color 0.2s;
@@ -420,15 +420,15 @@ h1, h2, h3, h4 {
   align-items: center;
   gap: 48px;
 }
-.contact-section .section-label { color: rgba(17,26,25,0.4); }
+.contact-section .section-label { color: rgba(255,255,255,0.6); }
 .contact-section h2 {
   font-size: clamp(2rem, 3.5vw, 3.2rem);
-  color: var(--noir);
+  color: #fff;
   font-style: italic;
   margin-bottom: 12px;
 }
-.contact-section > .container > .contact-inner > div > p {
-  color: rgba(17,26,25,0.62);
+.contact-section p {
+  color: rgba(255,255,255,0.88);
   font-size: 1rem;
   max-width: 460px;
 }
@@ -436,10 +436,10 @@ h1, h2, h3, h4 {
   text-align: center;;
   display: inline-block;
   padding: 14px 30px;
-  border: 1px solid rgba(17,26,25,0.4);
+  border: 1px solid rgba(255,255,255,0.6);
   border-radius: var(--radius);
   background: transparent;
-  color: var(--noir);
+  color: #fff;
   text-decoration: none;
   font-family: 'Jost', sans-serif;
   font-size: 0.76rem;
@@ -450,8 +450,8 @@ h1, h2, h3, h4 {
   transition: background 0.2s, border-color 0.2s;
 }
 .btn-primary:hover {
-  background: rgba(17,26,25,0.08);
-  border-color: var(--noir);
+  background: rgba(255,255,255,0.12);
+  border-color: #fff;
 }
 
 /* ── Footer — Noir de Vigne ──────────────────────────────── */
@@ -544,7 +544,7 @@ h1, h2, h3, h4 {
 }
 .hero-eyebrow {
   display: block;
-  font-size: 0.72rem;
+  font-size: 0.85rem;
   letter-spacing: 0.24em;
   text-transform: uppercase;
   color: rgba(255,255,255,0.6);
@@ -712,7 +712,7 @@ h1, h2, h3, h4 {
   margin: 36px 0 12px;
 }
 .story-text p {
-  color: rgba(17,26,25,0.65);
+  color: var(--noir);
   font-size: 1rem;
   margin-bottom: 16px;
   max-width: 580px;
@@ -752,7 +752,7 @@ h1, h2, h3, h4 {
   font-size: 0.8rem;
   letter-spacing: 0.14em;
   text-transform: uppercase;
-  color: rgba(17,26,25,0.4);
+  color: var(--noir);
 }
 
 /* ── Responsive ──────────────────────────────────────────── */
