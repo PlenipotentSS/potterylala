@@ -1,10 +1,9 @@
 import { useEffect, useRef, useState } from 'react'
 
 const slides = [
-  { src: '/placeholder.png', alt: 'Pottery Lala — handmade ceramics' },
-  { src: '/placeholder.jpg', alt: 'Leah at the wheel' },
-  { src: '/placeholder.png', alt: 'Studio glazing work' },
-  { src: '/placeholder.jpg', alt: 'Finished pieces from the kiln' },
+  { src: '/assets/work/bowls/sundial-bowls-on-grass.jpeg', alt: 'Sundial bowls on grass' },
+  { src: '/assets/work/cups/botanical-relief-tumbler-front.jpeg', alt: 'Botanical relief tumbler' },
+  { src: '/assets/work/studiophotos/studio-pieces-with-plants-1.jpeg', alt: 'Finished pieces with plants in the studio' },
 ]
 
 const AUTO_INTERVAL   = 15_000   // 15 s normal rotation

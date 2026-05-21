@@ -20,8 +20,8 @@ export default function AboutSection() {
           </p>
         </div>
         <div className="about-images">
-          <img src="/placeholder.png" alt="Leah at the wheel" />
-          <img src="/placeholder.jpg" alt="Leah's studio space" />
+          <img src="/assets/work/studiophotos/leah-with-pottery-tray.jpeg" alt="Leah with a tray of handmade pottery" />
+          <img src="/assets/work/studiophotos/studio-interior-view.jpeg" alt="Leah's studio space" />
         </div>
       </div>
     </section>

@@ -52,9 +52,9 @@ export default function MyStory() {
           </div>
 
           <div className="story-images">
-            <img src="/placeholder.png" alt="Leah at the wheel" className="story-img story-img--tall" />
-            <img src="/placeholder.jpg" alt="Studio shelves" className="story-img" />
-            <img src="/placeholder.png" alt="Close up of hands on clay" className="story-img" />
+            <img src="/assets/work/inprogress/teapot-wheel-front-view.jpeg" alt="Leah at the wheel" className="story-img story-img--tall" />
+            <img src="/assets/work/studiophotos/studio-shelf-display.jpeg" alt="Studio shelves with finished pieces" className="story-img" />
+            <img src="/assets/work/inprogress/bowl-on-wheel-water.jpeg" alt="Hands shaping clay on the wheel" className="story-img" />
           </div>
         </div>
 

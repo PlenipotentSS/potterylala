@@ -30,7 +30,7 @@ export default function LeahAvailable() {
             <p className="muted">Seattle — by appointment</p>
           </div>
           <div className="available-hero-image">
-            <img src="/placeholder.jpg" alt="Leah working in her studio" />
+            <img src="/assets/work/inprogress/glazing-pieces-in-progress.jpeg" alt="Leah glazing pieces in the studio" />
           </div>
         </div>
 

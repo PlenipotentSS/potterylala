@@ -9,11 +9,11 @@ interface IgPost {
 }
 
 const FALLBACK = [
-  '/placeholder.png',
-  '/placeholder.jpg',
-  '/placeholder.png',
-  '/placeholder.jpg',
-  '/placeholder.png',
+  { src: '/assets/work/studiophotos/glazed-pieces-arrangement-1.jpeg', alt: 'Glazed pieces arrangement' },
+  { src: '/assets/work/cups/green-speckled-mug-1.jpeg', alt: 'Green speckled mug' },
+  { src: '/assets/work/bowls/sun-design-bowl-lit-window.jpeg', alt: 'Sun design bowl by the window' },
+  { src: '/assets/work/decorations/bud-vases-lineup.jpeg', alt: 'Lineup of bud vases' },
+  { src: '/assets/work/studiophotos/many-glazed-pieces-overhead.jpeg', alt: 'Many glazed pieces from overhead' },
 ]
 
 export default function InstagramFeed() {
@@ -78,7 +78,7 @@ export default function InstagramFeed() {
           ))}
 
           {status === 'error' && (
-            FALLBACK.map((src, i) => (
+            FALLBACK.map((item, i) => (
               <a
                 key={i}
                 className="ig-item"
@@ -86,7 +86,7 @@ export default function InstagramFeed() {
                 target="_blank"
                 rel="noreferrer"
               >
-                <img src={src} alt={`Studio post ${i + 1}`} />
+                <img src={item.src} alt={item.alt} />
               </a>
             ))
           )}
